@@ -1,0 +1,24 @@
+<!DOCTYPE tiles-definitions PUBLIC
+      "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+      "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+  
+<tiles-definitions>
+
+   <definition name="templateListaPrecios" 
+             template="/WEB-INF/views/lista_precios/new/listaPreciosTemplate.jsp">
+             
+          <put-attribute name="form1"
+	   		value = "/WEB-INF/views/lista_precios/new/form1.jsp"/>
+	   		
+		<put-attribute name="form2"
+	   		value = "/WEB-INF/views/lista_precios/new/form2.jsp"/>
+	   			             
+	   	<put-attribute name="table"
+	   		value = "/WEB-INF/views/lista_precios/new/table.jsp"/>
+   </definition>
+   	  
+	<definition name ="listaPrecios/formListaPrecios" extends ="templateListaPrecios">
+		<put-attribute name="content" value ="/WEB-INF/views/lista_precios/new/listaPrecios.jsp"/>
+	</definition>
+
+</tiles-definitions>

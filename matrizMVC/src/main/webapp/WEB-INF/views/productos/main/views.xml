@@ -1,0 +1,21 @@
+<!DOCTYPE tiles-definitions PUBLIC
+      "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+      "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+  
+<tiles-definitions>
+
+   <definition name="templateProductos" 
+             template="/WEB-INF/views/productos/main/productosTemplateMain.jsp">
+             
+   		<put-attribute name="botonera" value = "/WEB-INF/views/productos/main/botoneraMain.jsp"/>
+   		
+   		<put-attribute name="table" value = "/WEB-INF/views/productos/main/tableMain.jsp"/>
+	
+   </definition>
+   	  
+   	  
+	<definition name ="productos/mainProductos" extends ="templateProductos">
+		<put-attribute name="content" value ="/WEB-INF/views/productos/main/productosMain.jsp"/>
+	</definition>
+
+</tiles-definitions>

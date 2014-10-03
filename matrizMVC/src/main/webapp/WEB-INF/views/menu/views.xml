@@ -1,0 +1,23 @@
+<!DOCTYPE tiles-definitions PUBLIC
+      "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+      "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+  
+<tiles-definitions>
+
+   <definition name="templateMenu" 
+             template="/WEB-INF/views/menu/menuTemplate.jsp">
+	<put-attribute name="form"
+   		value = "/WEB-INF/views/menu/form.jsp"/>
+   		             
+   	<put-attribute name="table"
+   		value = "/WEB-INF/views/menu/table.jsp"/>
+   		
+   	<put-attribute name="flash"
+   		value ="/WEB-INF/views/menu/flash.jsp"/>
+   </definition>
+   	  
+	<definition name ="menu/formMenu" extends ="templateMenu">
+		<put-attribute name="content" value ="/WEB-INF/views/menu/menu.jsp"/>
+	</definition>
+
+</tiles-definitions>

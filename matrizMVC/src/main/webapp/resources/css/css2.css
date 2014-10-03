@@ -1,0 +1,261 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+  background-color:#FFF;
+  /*background-image:url(../imagenes/Fondo%20Delivery.jpg);*/ 
+}
+/*------------------------------------------*/
+div label
+{
+	width: 15%;
+	float: left;
+}
+/*------------------------------------------*/
+.filaImpar 
+{
+	color:#000;
+	font-family:arial; 
+	font-size:12px;
+	background-color:#666;
+}
+/*------------------------------------------*/
+.filaPar 
+{
+	color:#FFF;
+	font-family:arial; 
+	font-size:12px;
+	
+	background-color:#C00;
+}
+
+/*------------------------------------------*/
+
+.Tabla
+{
+	background-color:#900;
+	
+}
+.tablaProd
+{
+	background-color:#FFF;
+	border-radius:2px;
+	
+}
+.BtnEnlace
+{
+	border:0;
+	padding:0;
+	background-color:transparent;
+	color:blue;
+	border-bottom:1px solid	blue;
+}
+/*------------------------------------------*/
+.labelForm 
+{
+	font-family:arial;
+	font-size: 15px;
+	font-weight:bold;
+	background-color:#000;
+}
+/*------------------------------------------*/
+.TituloTabla
+{
+	color:#FFF;
+	background-color:#000;
+	
+	
+}
+/*------------------------------------------*/
+.TituloTablaPedido
+{
+	color:#FFF;
+	font-size:12px;
+	text-align:left;
+	background-color:#FFF;
+}
+/*------------------------------------------*/
+.TituloTablaPedido2
+{
+	color:#FFF;
+	font-size:22px;
+	text-align:center;
+	background-color:#000;
+	border-color:#000;
+	display:block;
+	border-radius:1px;
+	
+	
+}
+/*------------------------------------------*/
+.ItemTabla
+{
+	color:#000;
+	font-family:Georgia, "Times New Roman", Times, serif;
+
+	text-align:left;
+	font-size:15px;
+	float:left;
+	
+	background-color:FFF;
+}
+/*------------------------------------------*/
+.CategoriaPar
+{
+	
+}
+/*------------------------------------------*/
+.CategoriaImpar
+{
+	
+}
+/*------------------------------------------*/
+.FondoTabla
+{
+	/*background-color:#FFF;*/
+	
+	
+}
+/*------------------------------------------*/
+.precio
+{
+	color:#900;
+	font-family:Arial, Helvetica, sans-serif; /*Georgia, "Times New Roman", Times, serif*/
+	font-size:15px;
+	
+	
+	text-justify:distribute;
+	text-align:right;
+	
+	
+	background-color:FFF;
+	width:12px;
+	
+	float:right;
+	width:10%;
+	height:20%;
+}
+#FrmLogin
+{
+	width:12em;
+}
+/*------------------------------------------*/
+#Contenedor
+{
+	padding-left:15%;
+}
+/*------------------------------------------*/
+#Cabecera
+{
+	width:800px;
+	font-size:18px;
+	font-style:normal;
+	
+	
+}
+/*------------------------------------------*/
+#Contenido
+{
+	float:left;
+	width:85%;
+}
+/*------------------------------------------*/
+#Contenido #Principal
+{
+	float:left;
+	width:40%;
+	margin-left:12%;
+}
+/*------------------------------------------*/
+#Derecha
+{
+	float:left;
+	width:10%;
+	height:20%;
+	margin-left:60%;
+	position:fixed;
+}
+/*------------------------------------------*/
+#Principal
+{
+	/*background-color:#000;*/
+	
+	
+}
+/*------------------------------------------*/
+#PrincipalAltaProductos
+{
+	background-color:#900;
+}
+/*------------------------------------------*/
+#Izquierda
+{
+	width:15%;
+	float:left;
+	
+}
+/*------------------------------------------*/
+#Pie
+{
+	clear:both;
+	
+}
+/*------------------------------------------*/
+#Imagen
+{
+	width:170px;
+	height:180px;
+	
+}
+#Imagen2
+{
+
+	width:1024px;
+	height:180px;
+	float:left;
+	position:absolute;
+	
+}
+/*------------------------------------------*/
+
+/*-----------------------------------------*/
+.TituloLogo
+{
+	font-size:40px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-left:65%;
+	color:#000;
+}
+.Derecha
+{
+	
+	float:left;
+	width:20%;	
+}
+table
+{
+	/*color:#FFF;*/
+	text-align:center;
+	
+	margin-right:20%;
+	margin-left:-20%;
+	
+}
+td
+{
+	
+}
+.Centro
+{
+	float:left;
+	width:55%;
+	padding-left:25%;
+	display:inline;
+	background-color:#900;
+	box-shadow: 25px 20px 25px #000000;
+	
+}
+a
+{
+	text-decoration:none;
+}

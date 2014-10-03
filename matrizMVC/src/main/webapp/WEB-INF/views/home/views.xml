@@ -1,0 +1,21 @@
+<!DOCTYPE tiles-definitions PUBLIC
+      "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+      "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+  
+<tiles-definitions>
+<!--<start id="tile_template"/>-->
+
+   <definition name="templatehome" 
+             template="/WEB-INF/views/home/homeTemplate.jsp">
+   </definition>
+   
+ 
+<!--<end id="tile_template"/>-->
+ 
+ 
+<!--<start id="tile_home"/>-->
+   <definition name="home" extends ="templatehome">
+     <put-attribute name="content" value="/WEB-INF/views/home/home.jsp" />
+   </definition>  
+<!--<end id="tile_home"/>-->
+</tiles-definitions>

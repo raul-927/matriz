@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*------------------------------------------*/
+body
+{
+  background-color:#900;
+  /*background-image:url(../imagenes/Fondo%20Delivery.jpg);*/ 
+}
+/*------------------------------------------*/
+#Cabecera
+{
+	width:800px;
+	font-size:18px;
+	font-style:normal;
+}
+
+#Izquierda
+{
+	width:15%;
+	float:left;
+	
+}
+#Contenido
+{
+	float:left;
+	width:85%;
+}
+
+#Derecha
+{
+	float:left;
+	width:10%;
+	height:20%;
+	margin-left:60%;
+	position:fixed;
+}
+
+#Pie
+{
+	clear:both;
+}
+#Contenedor
+{
+	padding-left:15%;
+	background-color:#900;
+}
+
+/*------------------------------------------*/
+
+#PrincipalAltaCategorias
+{
+	/*background-color:#900;*/
+	float:left;
+	width:40%;
+	margin-left:12%;
+}
+/*------------------------------------------*/
+.filaImpar 
+{
+	color:#000;
+	font-family:arial; 
+	font-size:12px;
+	background-color:#666;
+}
+/*------------------------------------------*/
+
+div label
+{
+	width: 15%;
+	float: left;
+}
+/*------------------------------------------*/
+#top 
+{
+	float: left;
+	position: relative;
+	width: 535px;
+}
+
+#content 
+{
+	float: left;
+	padding-bottom: 15px;
+	width: 535px;
+	background: #900;
+	margin-top: 6px;
+	padding: 10px;
+}
+
+#side 
+{
+	background: #99ccff none repeat scroll 0%;
+	border: 1px solid #996633;
+	float: right;
+	line-height: 1.2;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding: 12px;
+	width: 162px;
+}
+#Contenido
+{
+	float:left;
+	width:85%;
+}
+
+#Contenido #Principal
+{
+	float:left;
+	width:40%;
+	margin-left:12%;
+}
+#Principal
+{
+	/*background-color:#000;*/
+	
+	
+}
+
+.ItemTabla
+{
+	/*color:#000;*/
+	font-family:Verdana, Geneva, sans-serif;
+	letter-spacing:4px;
+	text-align:left;
+	font-size:12px;
+	
+	/*background-color:#FFF;*/
+}
+
+.precio
+{
+	/*color:#000000;*/	
+	font-size:18px;
+	font-style:normal;
+	font-family:Verdana, Geneva, sans-serif;
+}

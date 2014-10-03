@@ -1,0 +1,20 @@
+<!DOCTYPE tiles-definitions PUBLIC
+      "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+      "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+  
+<tiles-definitions>
+
+   <definition name="templatePedidos" 
+             template="/WEB-INF/views/pedidos/altaPedidosTemplate.jsp">
+	<put-attribute name="form"
+   		value = "/WEB-INF/views/pedidos/form.jsp"/>
+   		             
+   	<put-attribute name="table"
+   		value = "/WEB-INF/views/pedidos/table.jsp"/>
+   </definition>
+   	  
+	<definition name ="pedidos/formPedidos" extends ="templatePedidos">
+		<put-attribute name="content" value ="/WEB-INF/views/pedidos/altaPedidos.jsp"/>
+	</definition>
+
+</tiles-definitions>

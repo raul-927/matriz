@@ -1,0 +1,21 @@
+<!DOCTYPE tiles-definitions PUBLIC
+      "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+      "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+  
+<tiles-definitions>
+
+   <definition name="templateProductosUpdate" 
+             template="/WEB-INF/views/productos/update/productosTemplateUpdate.jsp">
+	<put-attribute name="form"
+   		value = "/WEB-INF/views/productos/update/formUpdate.jsp"/>
+   		             
+   	<put-attribute name="table"
+   		value = "/WEB-INF/views/productos/update/tableUpdate.jsp"/>
+   </definition>
+   	  
+   	  
+	<definition name ="productos/formProductosUpdate" extends ="templateProductosUpdate">
+		<put-attribute name="content" value ="/WEB-INF/views/productos/update/productosUpdate.jsp"/>
+	</definition>
+
+</tiles-definitions>

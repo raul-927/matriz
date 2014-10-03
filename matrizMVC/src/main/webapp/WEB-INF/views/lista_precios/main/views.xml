@@ -1,0 +1,31 @@
+<!DOCTYPE tiles-definitions PUBLIC
+      "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+      "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+  
+<tiles-definitions>
+
+   <definition name="mainTemplateListaPrecios" 
+             template="/WEB-INF/views/lista_precios/main/mainListaPreciosTemplate.jsp">
+             
+          <put-attribute name="mainCabezera"
+	   		value = "/WEB-INF/views/lista_precios/main/mainCabezera.jsp"/>
+	   		   
+          <put-attribute name="mainIzquierda"
+	   		value = "/WEB-INF/views/lista_precios/main/mainIzquierda.jsp"/>
+	   		
+	   		<put-attribute name="mainContenido"
+	   		value = "/WEB-INF/views/lista_precios/main/mainContenido.jsp"/>
+	   		
+		<put-attribute name="mainDerecha"
+	   		value = "/WEB-INF/views/lista_precios/main/mainDerecha.jsp"/>
+	   			             
+	   	<put-attribute name="mainPie"
+	   		value = "/WEB-INF/views/lista_precios/main/mainPie.jsp"/>
+	   	
+   </definition>
+   	  
+	<definition name ="listaPrecios/mainListaPrecios" extends ="mainTemplateListaPrecios">
+		<put-attribute name="content" value ="/WEB-INF/views/lista_precios/main/mainListaPrecios.jsp"/>
+	</definition>
+
+</tiles-definitions>

@@ -1,0 +1,295 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*------------------------------------------*/
+body
+{
+	background-image:url(../Images/barra.jpg);
+	background-position:right top;
+	background-repeat: repeat-x;
+	
+}
+/*-------------------------------------------*/
+#Contenedor
+{
+	
+	/*top:100px;*/
+    /*border-bottom:20;*/
+    color:#AAA;
+	
+}
+#Cabecera
+{
+	/*width: 100%;*/
+	width:40%;
+	margin-left:25%;
+	margin-right:25%;
+	font-size: 18px;
+	font-style: normal;
+	float: left top;
+	
+	
+	/*margin-right: auto*/
+}
+#Contenido
+{
+	float: left;
+	width: 85%;
+}
+
+#Principal
+{
+	float:left;
+	width:40%;
+	margin-left:30%;
+	margin-right:25%;
+	margin-botton: 10%;
+	/*margin-top: 1%;*/
+	border-radius:10px;
+	color:#800;
+	
+}
+
+#contenido #principal 
+{
+	float: left;
+	width: 80%;
+}
+
+.Centro
+{
+	float:left;
+	width:45%;
+	padding-left:50%;
+	padding-right:50%;
+	display:inline;
+	background-color:#900;
+	/*box-shadow: -40px 55px 100px #000000;*/
+	border-radius:10px;
+	
+}
+/*
+.filaImpar 
+{
+	color:#000;
+	font-family:arial; 
+	font-size:12px;
+	background-color:#666;
+}
+
+.filaPar 
+{
+	color:#FFF;
+	font-family:arial; 
+	font-size:12px;
+	
+	background-color:#C00;
+}
+
+------------------------------------------*/
+
+.Tabla
+{
+	background-color:#000;
+	border-radius:10px;
+	
+}
+.tablaProd
+{
+	background-color:#FFF;
+	border-radius:2px;
+	
+}
+.BtnEnlace
+{
+	border:0;
+	padding:0;
+	background-color:transparent;
+	color:blue;
+	border-bottom:1px solid	blue;
+}
+/*------------------------------------------*/
+.labelForm 
+{
+	font-family:arial;
+	font-size: 15px;
+	font-weight:bold;
+	background-color:#000;
+}
+/*------------------------------------------*/
+.TituloTabla
+{
+	color:#FFF;
+	background-color:#000;
+	
+	
+}
+/*------------------------------------------*/
+.TituloTablaPedido
+{
+	color:#FFF;
+	font-size:12px;
+	text-align:left;
+	background-color:#FFF;
+}
+/*------------------------------------------*/
+.TituloTablaPedido2
+{
+	color:#FFF;
+	font-size:22px;
+	text-align:center;
+	background-color:#000;
+	border-color:#000;
+	display:block;
+	border-radius:1px;
+	
+	
+}
+/*------------------------------------------*/
+.ItemTabla
+{
+	color:#000;
+	font-family:Georgia, "Times New Roman", Times, serif;
+
+	text-align:left;
+	font-size:15px;
+	float:left;
+	
+	background-color:#FFF;
+}
+
+/*------------------------------------------*/
+.precio
+{
+	color:#800;
+	font-family:Arial, Helvetica, sans-serif; /*Georgia, "Times New Roman", Times, serif*/
+	font-size:13px;
+	
+	
+	text-justify:distribute;
+	text-align:right;
+	
+	
+	background-color:FFF;
+	width:12px;
+	
+	float:right;
+	width:10%;
+	height:20%;
+}
+#FrmLogin
+{
+	width:12em;
+}
+
+#FrmPedido
+{
+	position:fixed
+}
+/*------------------------------------------*/
+
+
+
+/*#Principal
+{
+	float:left;
+	width:40%;
+	margin-left:12%;
+	
+	
+	
+}*/
+/*------------------------------------------*/
+#Derecha
+{
+	float:left;
+	width:25%;
+	height:20%;
+	margin-left:60%;
+	position:fixed;
+}
+/*------------------------------------------*/
+.Derecha
+{	
+	float:left;
+	width:20%;	
+}
+/*------------------------------------------*/
+#PrincipalAltaProductos
+{
+	background-color:#900;
+}
+/*------------------------------------------*/
+#Izquierda
+{
+	width:50%;
+	float:left;
+	margin-left:50%;
+	height:20%;
+	position:fixed;
+
+	
+}
+/*------------------------------------------*/
+#Pie
+{
+	clear:both;
+	
+}
+/*------------------------------------------*/
+
+#Imagen
+{
+	width:175px;
+	height:65px;
+	float:  left top;
+	
+}
+
+
+.login
+{
+
+	float:right;
+	color:#FFF;
+
+
+}
+
+/*-----------------------------------------*/
+.TituloLogo
+{
+	font-size: 40px;
+	font-family: Helvetica, Arial;
+	margin-left: 40%;
+	text-align: top;
+	
+	color: #000;
+}
+
+.TituloLogo2
+{
+	font-size:30px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-left:65%;
+	color:#000;
+}
+
+table
+{
+	/*color:#FFF;*/
+	text-align:center;
+	
+	margin-right:20%;
+	margin-left:-20%;
+	
+}
+td
+{
+	
+}
+
+a
+{
+	text-decoration:none;
+}

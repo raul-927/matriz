@@ -1,0 +1,20 @@
+<!DOCTYPE tiles-definitions PUBLIC
+      "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+      "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+  
+<tiles-definitions>
+
+   <definition name="templateUsuario" 
+             template="/WEB-INF/views/usuario/altaUsuarioTemplate.jsp">
+	<put-attribute name="form"
+   		value = "/WEB-INF/views/usuario/form.jsp"/>
+   		             
+   	<put-attribute name="table"
+   		value = "/WEB-INF/views/usuario/table.jsp"/>
+   </definition>
+   	  
+	<definition name ="usuario/formUsuario" extends ="templateUsuario">
+		<put-attribute name="content" value ="/WEB-INF/views/usuario/altaUsuario.jsp"/>
+	</definition>
+
+</tiles-definitions>

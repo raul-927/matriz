@@ -1,0 +1,20 @@
+<!DOCTYPE tiles-definitions PUBLIC
+      "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+      "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+  
+<tiles-definitions>
+
+   <definition name="templateLogin" 
+             template="/WEB-INF/views/login/loginTemplate.jsp">
+	<put-attribute name="form"
+   		value = "/WEB-INF/views/login/form.jsp"/>
+   		             
+   	<put-attribute name="table"
+   		value = "/WEB-INF/views/login/table.jsp"/>
+   </definition>
+   	  
+	<definition name ="login/formLogin" extends ="templateLogin">
+		<put-attribute name="content" value ="/WEB-INF/views/login/login.jsp"/>
+	</definition>
+
+</tiles-definitions>
